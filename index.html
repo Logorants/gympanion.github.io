@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gympanion è l'app locale per pianificare, registrare e seguire i tuoi allenamenti." />
+    <meta name="theme-color" content="#153D2B" />
+    <title>Gympanion — Il tuo allenamento, con te</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1zM27.7 12.4h1.5v7.2h-1.5z" /></svg>
+        <span>Gympanion</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigazione principale">
+        <a href="#funzioni">Funzioni</a>
+        <a href="#privacy">Privacy</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <main id="contenuto">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ALLENAMENTO, SENZA DISTRAZIONI</p>
+          <h1>Il tuo piano.<br /><em>Il tuo ritmo.</em></h1>
+          <p class="lead">Gympanion ti aiuta a seguire la scheda, registrare ogni serie e leggere i progressi. I tuoi dati restano sul tuo dispositivo.</p>
+          <div class="actions">
+            <a class="button primary" href="#funzioni">Scopri Gympanion</a>
+            <a class="button text" href="privacy.html">Leggi la Privacy Policy</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Anteprima di una scheda di allenamento">
+          <div class="card-top"><span>OGGI</span><span class="progress">2 / 3</span></div>
+          <h2>Spinta</h2>
+          <p>Allenamento completato</p>
+          <div class="sets" aria-hidden="true"><span></span><span></span><span></span><span class="idle"></span></div>
+          <div class="card-footer"><span>Costanza settimanale</span><strong>67%</strong></div>
+        </div>
+      </section>
+
+      <section id="funzioni" class="section">
+        <p class="eyebrow">TUTTO CIÒ CHE SERVE</p>
+        <h2 class="section-title">Resta nel flow.</h2>
+        <div class="features">
+          <article class="feature">
+            <span class="feature-number">01</span>
+            <h3>Segui la scheda</h3>
+            <p>Programma settimane e giornate, con una sola scheda attiva alla volta.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-number">02</span>
+            <h3>Registra con semplicità</h3>
+            <p>Carichi, ripetizioni, recuperi e note sono a portata di mano durante la seduta.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-number">03</span>
+            <h3>Leggi i progressi</h3>
+            <p>Visualizza costanza, andamento degli esercizi e report al termine dell'allenamento.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="privacy" class="privacy-callout">
+        <div>
+          <p class="eyebrow">PRIVACY AL CENTRO</p>
+          <h2>I tuoi allenamenti restano tuoi.</h2>
+          <p>Gympanion non richiede un account e non invia le tue sedute a server, servizi di analisi o inserzionisti. Puoi esportare un backup soltanto quando lo scegli tu.</p>
+        </div>
+        <a class="button secondary" href="privacy.html">Privacy Policy completa</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1z" /></svg>
+        <span>Gympanion</span>
+      </a>
+      <p>Allenati con continuità.</p>
+      <a href="privacy.html">Privacy Policy</a>
+      <small>© <span data-current-year></span> Luca Chisari</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
