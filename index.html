@@ -1,90 +1,103 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Gympanion è l'app locale per pianificare, registrare e seguire i tuoi allenamenti." />
-    <meta name="theme-color" content="#153D2B" />
-    <title>Gympanion — Il tuo allenamento, con te</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
-    <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1zM27.7 12.4h1.5v7.2h-1.5z" /></svg>
-        <span>Gympanion</span>
-      </a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="site-nav" aria-label="Navigazione principale">
-        <a href="#funzioni">Funzioni</a>
-        <a href="#privacy">Privacy</a>
-        <a href="privacy.html">Privacy Policy</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gympanion: pianifica la scheda, registra le serie e segui i progressi dei tuoi allenamenti. I dati restano sul tuo dispositivo." />
+  <meta name="theme-color" content="#153D2B" />
+  <title>Gympanion — Il tuo allenamento, con te</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1zM27.7 12.4h1.5v7.2h-1.5z" /></svg>
+      <span>Gympanion</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Navigazione principale">
+      <a href="#come-funziona">Come funziona</a>
+      <a href="#funzioni">L’app</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
 
-    <main id="contenuto">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">ALLENAMENTO, SENZA DISTRAZIONI</p>
-          <h1>Il tuo piano.<br /><em>Il tuo ritmo.</em></h1>
-          <p class="lead">Gympanion ti aiuta a seguire la scheda, registrare ogni serie e leggere i progressi. I tuoi dati restano sul tuo dispositivo.</p>
-          <div class="actions">
-            <a class="button primary" href="#funzioni">Scopri Gympanion</a>
-            <a class="button text" href="privacy.html">Leggi la Privacy Policy</a>
+  <main id="contenuto">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">GYMPANION · ALLENAMENTO SENZA DISTRAZIONI</p>
+        <h1>Il tuo piano.<br /><em>Il tuo ritmo.</em></h1>
+        <p class="lead">Dalla scheda all’ultima serie: Gympanion ti accompagna in palestra, ti aiuta a restare costante e ti mostra come stai progredendo.</p>
+        <div class="actions">
+          <a class="button primary" href="#come-funziona">Scopri come funziona <span aria-hidden="true">↗</span></a>
+          <a class="button text" href="privacy.html">Come gestiamo i dati</a>
+        </div>
+        <p class="hero-note">Per Android · Funziona anche senza connessione</p>
+      </div>
+      <div class="hero-visual">
+        <div class="phone" aria-label="Anteprima illustrativa della schermata Home di Gympanion">
+          <div class="phone-screen">
+            <div class="mock-appbar"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1zM27.7 12.4h1.5v7.2h-1.5z" /></svg><strong>Gympanion</strong></div>
+            <h2 class="mock-heading">Ciao, Luca</h2>
+            <div class="mock-streak">
+              <div class="mock-streak-head"><div><span class="mock-label">ADERENZA AL PIANO</span><strong>2<span>/3 sedute</span></strong></div><span class="mock-flame" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12.2 2.4c.3 3-1.1 4.5-2.8 6.4C7.5 10.9 6 12.7 6 15a6 6 0 0 0 12 0c0-3.5-1.8-6.2-4.2-8.5.1 2.3-.8 3.5-1.8 4.3.2-3.1-1.1-5.6-3.8-7.8 0 2-.9 3.8-2.2 5.4A11.7 11.7 0 0 1 12.2 2.4ZM12 12.7c1.6 1.7 2.3 3 2.3 4.1a2.3 2.3 0 0 1-4.6 0c0-1.4.9-2.6 2.3-4.1Z" /></svg></span></div>
+              <div class="mock-week" aria-hidden="true"><span class="done">✓<small>21</small></span><span class="done">✓<small>22</small></span><span>M<small>23</small></span><span class="today">G<small>24</small></span><span>V<small>25</small></span><span>S<small>26</small></span><span>D<small>27</small></span></div>
+            </div>
+            <div class="mock-widgets">
+              <div class="mock-widget annual"><span class="mock-label">QUEST’ANNO</span><strong>24</strong><small>sedute completate</small></div>
+              <div class="mock-widget next"><span class="mock-label">PROSSIMA</span><strong>Giorno 3</strong><small>Allenati <span aria-hidden="true">→</span></small></div>
+            </div>
+            <div class="mock-nav" aria-hidden="true"><span class="selected">⌂<small>Home</small></span><span>◆<small>Allenati</small></span><span>⌁<small>Progressi</small></span><span>▤<small>Scheda</small></span><span>⚙<small>Impostazioni</small></span></div>
           </div>
         </div>
-        <div class="hero-card" aria-label="Anteprima di una scheda di allenamento">
-          <div class="card-top"><span>OGGI</span><span class="progress">2 / 3</span></div>
-          <h2>Spinta</h2>
-          <p>Allenamento completato</p>
-          <div class="sets" aria-hidden="true"><span></span><span></span><span></span><span class="idle"></span></div>
-          <div class="card-footer"><span>Costanza settimanale</span><strong>67%</strong></div>
-        </div>
-      </section>
+        <span class="preview-caption">Anteprima illustrativa · dati di esempio</span>
+      </div>
+    </section>
 
-      <section id="funzioni" class="section">
-        <p class="eyebrow">TUTTO CIÒ CHE SERVE</p>
-        <h2 class="section-title">Resta nel flow.</h2>
-        <div class="features">
-          <article class="feature">
-            <span class="feature-number">01</span>
-            <h3>Segui la scheda</h3>
-            <p>Programma settimane e giornate, con una sola scheda attiva alla volta.</p>
-          </article>
-          <article class="feature">
-            <span class="feature-number">02</span>
-            <h3>Registra con semplicità</h3>
-            <p>Carichi, ripetizioni, recuperi e note sono a portata di mano durante la seduta.</p>
-          </article>
-          <article class="feature">
-            <span class="feature-number">03</span>
-            <h3>Leggi i progressi</h3>
-            <p>Visualizza costanza, andamento degli esercizi e report al termine dell'allenamento.</p>
-          </article>
-        </div>
-      </section>
+    <section id="come-funziona" class="section journey">
+      <div class="section-intro"><p class="eyebrow">UN FLUSSO SEMPLICE</p><h2>Preparati. Allenati.<br />Guarda avanti.</h2><p>Ogni schermata ha uno scopo preciso. Prima scegli la scheda, poi pensi alla seduta; i risultati arrivano quando hai finito.</p></div>
+      <ol class="journey-steps">
+        <li><span class="step-number">01</span><div><h3>Prepara la scheda</h3><p>Attiva un programma, organizza settimane e giornate e consulta gli esercizi prima di iniziare.</p></div></li>
+        <li><span class="step-number">02</span><div><h3>Concentrati sulla seduta</h3><p>Apri la giornata in Allenati. Conferma rapidamente le serie proposte, cambia solo i valori necessari e segui il recupero.</p></div></li>
+        <li><span class="step-number">03</span><div><h3>Leggi ciò che conta</h3><p>A fine seduta vedi la tua costanza e un report; in Progressi confronti gli esercizi registrati nel tempo.</p></div></li>
+      </ol>
+    </section>
 
-      <section id="privacy" class="privacy-callout">
-        <div>
-          <p class="eyebrow">PRIVACY AL CENTRO</p>
-          <h2>I tuoi allenamenti restano tuoi.</h2>
-          <p>Gympanion non richiede un account e non invia le tue sedute a server, servizi di analisi o inserzionisti. Puoi esportare un backup soltanto quando lo scegli tu.</p>
-        </div>
-        <a class="button secondary" href="privacy.html">Privacy Policy completa</a>
-      </section>
-    </main>
+    <section id="funzioni" class="section app-tour">
+      <div class="tour-copy"><p class="eyebrow">ALLENATI</p><h2>La prossima serie è già pronta.</h2><p>Gympanion mostra la settimana e la scheda attive, distingue le giornate completate e porta in primo piano la serie corrente. I valori si possono rivedere prima della conferma.</p><ul class="check-list"><li>Obiettivo e recupero sempre visibili</li><li>Conferma rapida o modifica dei valori</li><li>Sessione riprendibile quando torni nell’app</li></ul></div>
+      <div class="demo-panel" aria-label="Anteprima illustrativa della schermata Allenati">
+        <div class="demo-top"><span>ALLENATI</span><span class="demo-week">‹ &nbsp; Settimana 2 &nbsp; ›</span></div>
+        <div class="demo-plan"><span>SCHEDA ATTIVA</span><strong>Il mio programma</strong></div>
+        <div class="demo-day complete"><div><span>ALLENAMENTO</span><strong>Giorno 1</strong><small>5 esercizi</small></div><span class="check-disc" aria-label="Completato">✓</span></div>
+        <div class="demo-day"><div><span>ALLENAMENTO</span><strong>Giorno 2</strong><small>6 esercizi · in corso</small></div><span class="mini-cta">Riprendi sessione</span></div>
+        <div class="demo-set"><div><span class="mock-label">NELLA SEDUTA · SERIE 2 DI 4</span><strong>8 ripetizioni · 42 kg</strong><small>Valori proposti dalla scheda</small></div><span class="confirm">✓ &nbsp; Conferma serie</span></div>
+        <small class="panel-caption">Anteprima illustrativa · dati di esempio</small>
+      </div>
+    </section>
 
-    <footer class="site-footer">
-      <a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1z" /></svg>
-        <span>Gympanion</span>
-      </a>
-      <p>Allenati con continuità.</p>
-      <a href="privacy.html">Privacy Policy</a>
-      <small>© <span data-current-year></span> Luca Chisari</small>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    <section class="section progress-tour">
+      <div class="tour-copy"><p class="eyebrow">PROGRESSI E REPORT</p><h2>La continuità diventa visibile.</h2><p>Dopo l’allenamento, una schermata celebra il traguardo e apre il report della seduta. In Progressi puoi selezionare un esercizio già registrato e seguire l’andamento di carico, ripetizioni o volume.</p><p class="supporting-copy">I confronti del report sono indicativi: obiettivi e varianti della scheda possono rendere diverse due sedute.</p></div>
+      <div class="report-panel" aria-label="Anteprima illustrativa del report di una seduta">
+        <span class="mock-label">REPORT DELLA SEDUTA</span><h3>Giorno 2</h3><div class="report-stats"><div><strong>16</strong><span>serie registrate</span></div><div><strong>2</strong><span>esercizi in crescita</span></div></div>
+        <div class="report-line"><span>Andamento degli esercizi</span><svg viewBox="0 0 300 94" role="img" aria-label="Esempio di andamento in crescita"><path d="M5 80 L72 62 L139 68 L206 36 L295 18" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="5" cy="80" r="5" /><circle cx="72" cy="62" r="5" /><circle cx="139" cy="68" r="5" /><circle cx="206" cy="36" r="5" /><circle cx="295" cy="18" r="5" /></svg></div>
+        <small class="panel-caption">Anteprima illustrativa · dati di esempio</small>
+      </div>
+    </section>
+
+    <section class="section details-section">
+      <div class="section-intro"><p class="eyebrow">NEL QUOTIDIANO</p><h2>Il resto segue il tuo allenamento.</h2></div>
+      <div class="detail-grid">
+        <article><span class="detail-icon" aria-hidden="true">▤</span><h3>Una scheda alla volta</h3><p>Consulta il programma attivo o gestisci le schede esistenti. Puoi importare e condividere una scheda quando serve.</p></article>
+        <article><span class="detail-icon" aria-hidden="true">◷</span><h3>Recupero sotto controllo</h3><p>Il timer accompagna la seduta con una notifica Android e la vibrazione scelta nelle Impostazioni.</p></article>
+        <article><span class="detail-icon" aria-hidden="true">♫</span><h3>Musica a portata di mano</h3><p>Se abiliti l’accesso opzionale ai controlli multimediali, la Home mostra il brano in riproduzione e i comandi essenziali.</p></article>
+      </div>
+    </section>
+
+    <section id="privacy" class="privacy-callout"><div><p class="eyebrow">PRIVACY AL CENTRO</p><h2>I tuoi allenamenti restano tuoi.</h2><p>Gympanion conserva profilo, schede e sedute sul dispositivo. Backup e condivisione avvengono quando li avvii tu. Nessun account richiesto.</p></div><a class="button secondary" href="privacy.html">Leggi la Privacy Policy <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html" aria-label="Gympanion, pagina iniziale"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6.2 14.7h19.6v2.6H6.2zM4.3 10.2h3.1v11.6H4.3zM2.8 12.4h1.5v7.2H2.8zM24.6 10.2h3.1v11.6h-3.1zM27.7 12.4h1.5v7.2h-1.5z" /></svg><span>Gympanion</span></a><p>Allenati con continuità.</p><a href="privacy.html">Privacy Policy</a><small>© <span data-current-year></span> Luca Chisari</small></footer>
+  <script src="script.js"></script>
+</body>
 </html>

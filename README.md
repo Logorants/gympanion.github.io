@@ -1,6 +1,6 @@
 # Sito statico Gympanion
 
-Questo repository/cartella contiene il sito informativo e la Privacy Policy di Gympanion. Non usa build tool, framework, cookie o analytics: GitHub Pages può servire direttamente questi file.
+Questo repository/cartella contiene il sito informativo e la Privacy Policy di Gympanion. Non usa build tool, framework, cookie o analytics: GitHub Pages può servire direttamente questi file. Le anteprime dell'app sono illustrative e usano dati di esempio.
 
 ## Pubblicazione su GitHub Pages
 
